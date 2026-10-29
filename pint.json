@@ -1,0 +1,15 @@
+{
+    "preset": "laravel",
+    "rules": {
+        "no_unused_imports": true
+    },
+    "exclude": [
+        "vendor",
+        "storage",
+        "bootstrap/cache"
+    ],
+    "notPath": [
+        "public/index.php",
+        "server.php"
+    ]
+}

@@ -1,0 +1,397 @@
+#mySidenav{
+  z-index:1000;
+}
+
+.profil-sc::-webkit-scrollbar {
+  width: 6px;
+}
+
+/* Track */
+.profil-sc::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.profil-sc::-webkit-scrollbar-thumb {
+  background: #e50000; 
+}
+
+/* Handle on hover */
+.profl-sc::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.profil-sc:hover{
+     background:#f0f0f0; 
+}
+
+.row{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.row::-webkit-scrollbar {
+  width: 2px;
+  height:5px;
+}
+
+/* Track */
+.row::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.row::-webkit-scrollbar-thumb {
+  background: #e50000; 
+}
+
+/* Handle on hover */
+.row::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.row:hover{
+     background:#fff; 
+}
+
+
+.row{
+  align-items: stretch;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+
+.row::-webkit-scrollbar {
+  width: 2px;
+  height:5px;
+}
+
+/* Track */
+.row::-webkit-scrollbar-track {
+  background: #f1f1f1; 
+}
+ 
+/* Handle */
+.row::-webkit-scrollbar-thumb {
+  background: #e50000; 
+}
+
+/* Handle on hover */
+.row::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+
+.row:hover{
+     background:#fff; 
+}
+
+.card {
+      /* float: left; */
+    /* max-width: 33.333%; */
+    /* padding: .75rem; */
+    /* margin-bottom: 2rem; */
+    border: 0;
+    flex-basis: 20.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 3px;
+    width: 100%;
+    height:170px;
+}
+
+
+
+
+
+.card > img {
+  margin-bottom: .75rem;
+}
+
+.card-text {
+  font-size: 85%;
+}
+
+#basemaps-wrapper {
+  position: absolute;
+top: 180px;
+right: 350px;
+     z-index: 400;
+background: white;
+padding: 10px;
+}
+#wilayah-wrapper {
+
+
+}
+
+#legend-wrapper {
+  
+}
+
+
+#basemaps {
+  margin-bottom: 5px;
+}
+
+
+ #map { position: absolute; top:75px; bottom:200px; right:0px; left:0px; }
+  
+.sidenav {
+  display: inline-block;
+  height: 90%;
+  width: 40%;
+  position: fixed;
+
+  z-index: 1;
+  top: 10%;
+  right: 60%;
+  background-color: #fff;
+  overflow-x: auto;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding:10px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.sidenavContent {
+  display: inline-block;
+  height: 90%;
+  width: 40%;
+  position: fixed;
+
+  z-index: 100000;
+  top: 10%;
+  right: 60%;
+  background-color: #fff;
+  overflow-x: auto;
+  transition: 0.5s;
+  padding-top: 60px;
+  padding:10px;
+}
+
+.sidenavContent a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 15px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavContent a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavContent .closebtn {
+  position: absolute;
+  top: 0;
+  right: 2px;
+  font-size: 40px;
+  margin-left: 5px;
+}
+
+.sidenavBawah {
+  display: inline-block;
+  height: 170px;
+  width: 60%;
+  position: fixed;
+  z-index: 1000;
+	bottom: 10px;
+  left: 40%;
+  background-color: #fff;
+  overflow-x: auto;
+  transition: 0.5s;
+}
+
+.sidenavBawah a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+  transition: 0.3s;
+}
+
+.sidenavBawah a:hover {
+  color: #f1f1f1;
+}
+
+.sidenavBawah .closebtn {
+  position: absolute;
+  top: 0;
+  right: 50px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+
+.bot-foto{
+  margin-left: 0%; margin-top: -4%;  width: 60%; min-width: 60%; overflow: auto;  
+}
+
+   .Msidenav{
+      display:block ;
+    }
+
+    .MsidenavBawah{
+      display:block ;
+    }
+
+  .show-mobile{
+    display:none ;
+  }
+
+
+.map-size{
+  height:90%; border-radius:8px; width:100%;
+}
+
+
+.gis-info{
+  padding:10px;
+   max-height:120px; 
+   height:120px;
+
+  overflow-y: auto;
+   background: #fefefe;
+    border-radius: 5px; 
+  box-shadow: 1px 2px 2px 1px #ece4e4;
+  width:100%;
+}
+
+.gis-info-pemilu{
+  padding:10px;
+   max-height:400px; 
+   height:400px;
+
+  overflow-y: auto;
+  overflow-x: hidden;
+   background: #fefefe;
+    border-radius: 5px; 
+  box-shadow: 1px 2px 2px 1px #ece4e4;
+  width:95%;
+}
+
+
+.gis-info-wilayah{
+  padding:10px;
+   max-height:400px; 
+   height:400px;
+
+  overflow-y: auto;
+   background: #fefefe;
+    border-radius: 5px; 
+  box-shadow: 1px 2px 2px 1px #ece4e4;
+  width:97%;
+}
+
+
+@media screen and (max-height: 450px) {
+  .sidenav {padding-top: 115px;}
+  .sidenav a {font-size: 18px;}
+}
+
+
+
+@media screen and (max-height: 450px) {
+  .sidenavBawah {padding-top: 15px;}
+  .sidenavBawah a {font-size: 18px;}
+}
+
+
+
+@media  (max-width: 768px){
+    .sidenav{
+      display:none;
+    }
+
+    .sidenavBawah{
+      display:none;
+    }
+
+    .map-size{
+     height:80%; border-radius:8px;
+}
+
+    #wilayah-wrapper {
+       display: inline-block;
+      position: absolute;
+      top: 85px;
+      /*right: 165px;*/
+      z-index: 500;
+      background: white;
+      padding: 10px;
+      left:47.5%;
+    }
+
+#legend-wrapper {
+   display: inline-block;
+    position: absolute;
+    top: 140px;
+    /*right: 0px;*/
+    z-index: 400;
+    background: white;
+    padding: 10px;
+   
+    overflow-y: auto;
+    height:30%;
+    background: transparent;
+    width:170px;
+    left: 47.7%;
+}
+
+  .Mbot-foto{
+       margin-left:0%; margin-top: -5%;  width: 60%; min-width: 60%; overflow: auto;  
+  }
+
+  .show-mobile{
+     display: inline-block;
+    margin-top:50%; 
+    width:100%;
+  }
+
+  .card {
+      /* float: left; */
+    /* max-width: 33.333%; */
+    /* padding: .75rem; */
+    /* margin-bottom: 2rem; */
+    border: 0;
+    flex-basis: 20.333%;
+    flex-grow: 0;
+    flex-shrink: 0;
+    margin: 40px;
+    width: 200%;
+}
+
+.map-size{
+  height:90%; border-radius:8px; width:100%;
+}
+
+}

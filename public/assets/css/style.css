@@ -1,0 +1,125 @@
+@font-face {
+  font-family: 'Ethnocentric';
+  src: url('../fonts/Ethnocentric-Reguler.otf') format('opentype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+body {
+  font-family: 'Arial', sans-serif;
+  /* Using a common sans-serif font */
+  background-color: #f0f0f0;
+  /* Fallback background */
+}
+
+.countdown {
+  font-family: 'Ethnocentric', sans-serif;
+}
+.font-impact {
+  font-family: 'Anton', Impact, sans-serif;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  letter-spacing: 0.2em;
+}
+
+.btn-buy-now {
+  background-color: #e50914;
+  /* Bright red */
+  border-bottom: 4px solid #b0070f;
+  /* Darker red for 3D effect */
+  transition: all 0.2s ease;
+}
+
+.btn-buy-now:hover {
+  background-color: #f51a25;
+  transform: translateY(-2px);
+  border-bottom-width: 6px;
+}
+
+.btn-buy-now:active {
+  transform: translateY(0px);
+  border-bottom-width: 4px;
+}
+
+.hero-money-bg {
+  position: relative;
+  overflow: hidden;
+}
+
+.hero-money-bg::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: url('https://storage.googleapis.com/workspace-0f70711f-8b4e-4d94-86f1-2a93ccde5887/image/468c7683-5d42-4faa-a29b-2b455bead7a5.png');
+  background-size: cover;
+  background-position: center;
+  filter: blur(8px);
+  z-index: 0;
+}
+
+.win-cash-bg {
+  background-color: #8ec63f;
+  /* Lime Green */
+}
+
+.global-draw-bg {
+  background-color: #d6df22;
+  /* Lighter Lime/Yellow Green */
+}
+
+/* Responsive header adjustments */
+.mobile-menu {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-in-out;
+}
+
+.mobile-menu.open {
+  max-height: 500px;
+  /* Adjust as needed */
+}
+
+/* Icon styling */
+.material-icons,
+.material-icons-outlined {
+  vertical-align: middle;
+}
+
+.nav-icon-container {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 28px;
+  /* Adjust size as needed */
+  height: 28px;
+  /* Adjust size as needed */
+  background-color: #FFFFFF;
+  border-radius: 50%;
+  margin-right: 8px;
+  /* Space between icon and text */
+}
+
+.nav-icon-container .material-icons-outlined {
+  font-size: 18px;
+}
+
+/* Ensure header text is white */
+.header-bg a,
+.header-bg .text-white {
+  color: #FFFFFF;
+  /* Override Tailwind if necessary for links */
+}
+
+.header-bg .mobile-menu-toggle .material-icons-outlined {
+  color: #FFFFFF;
+}
+
+.header-bg nav a:hover,
+.header-bg nav a:hover .nav-icon-container .material-icons-outlined,
+.header-bg nav a:hover span:not(.nav-icon-container) {
+  color: #4CAF50;  
+}
+
+.header-bg nav a:hover .nav-icon-container {
+  background-color: #FFFFFF;
+}
